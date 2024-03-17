@@ -34,7 +34,7 @@
   }
   
   .middle-column {
-    max-width: 800px; /* Set max-width for the middle column */
+    max-width: 800; /* Set max-width for the middle column */
   }
 
 html {
