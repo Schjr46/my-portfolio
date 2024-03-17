@@ -55,7 +55,7 @@ const MainContent = () => {
           </div>
           
         </div>
-        <div className="w-full md:w-1/4 flex justify-center items-center">
+        <div className="w-full h-full md:w-1/4 flex justify-center items-center">
           <Image src="/myface.png" alt="avatar" width={500} height={500} />
         </div>
       </div>

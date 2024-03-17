@@ -13,7 +13,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full  bg-transparent text-gray-200 shadow-lg p-[15px] ">
+    <div className="w-full shadow-lg shadow-[#000514]/50 bg-[#000514] backdrop-blur-md text-white">
         <div className="w-full flex flex-col items-center justify-center m-auto">
             <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
@@ -28,10 +28,12 @@ const Footer = () => {
                     <TransferLinks url="https://www.instagram.com/truongnhhuynh/" logo={<RxInstagramLogo/>} name="Instagram"/>
                     <TransferLinks url="https://www.linkedin.com/in/nhat-truong-huynh-69255b2a0/" logo={<RxLinkedinLogo/>} name="Linkedin"/>
                 </div>
-                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
-                    <div className="font-bold text-[16px]">About</div>
+                <div className="min-w-[200px] h-auto flex flex-col items-center justify-start ">
+                    <div className="font-bold text-[16px]">About Me</div>
                     <TransferLinks url="mailto:huynhnhattruonglt@gmail.com" logo={<MdEmail/>} name="Email"/>
                     <TransferLinks url="https://github.com/Schjr46" logo={<RxGithubLogo/>} name="Github"/>
+                    <div className="invisible">''</div>
+                    <div className="invisible">''</div>
                 </div>
             </div>
 
