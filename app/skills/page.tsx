@@ -66,7 +66,7 @@ const Skills = () => {
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/3">
                 <p className=" ">Vietnamese' Chess </p>
-                <em className="text-sm ">Frontend, Jan 2024 - now</em>
+                <em className="text-sm ">Frontend, Aug - Oct 2023</em>
                 <ul className="pt-4 list-disc">
                   <li>
                     An Owlvernyte team's school project (7 members). Vietnamese
