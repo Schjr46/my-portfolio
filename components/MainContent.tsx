@@ -28,7 +28,7 @@ const MainContent = () => {
               </a>
             </span>
             . I often take frontend tasks for those pet projects so I&apos;d
-            love to spend more time with backend tasks.
+            love to spend more time with backend or mobile projects.
           </p>
           <div className="text-white pt-20">
             <p>
