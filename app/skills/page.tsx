@@ -1,5 +1,6 @@
 import TransferLinks from "@/components/TransferLinks";
 import React from "react";
+import Image from "next/image"; // Import Image component
 
 import { RxGithubLogo } from "react-icons/rx";
 const Skills = () => {
@@ -9,7 +10,7 @@ const Skills = () => {
         <div className="middle-column">
           <div>
             <h1 className="text-xl font-bold text-white">Education</h1>
-            <hr className="my-6 border-neutral-100 dark:border-neutral-700"></hr>
+            <hr className="my-6 border-neutral-100 dark:border-neutral-700" />
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-1/2">
                 <p className=" ">
@@ -28,14 +29,14 @@ const Skills = () => {
 
           <div className="pt-10">
             <h1 className="text-xl font-bold ">Projects</h1>
-            <hr className="my-6 border-neutral-100 dark:border-neutral-700"></hr>
+            <hr className="my-6 border-neutral-100 dark:border-neutral-700" />
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/3">
                 <p className=" ">Vair </p>
                 <em className="text-sm ">Frontend, Jan 2024 - now</em>
                 <ul className="pt-4 list-disc">
                   <li>
-                    A school's project (3 members). Vair was planned to become a
+                    A school&apos;s project (3 members). Vair was planned to become a
                     multi-platform software distribution system.
                   </li>
                   <li>
@@ -52,24 +53,24 @@ const Skills = () => {
                   href="https://github.com/fieztazica/vair_app"
                 >
                   <div className="transform transition-transform duration-300 group-hover:-rotate-12 rounded-full bg-neutral-700 dark:bg-neutral-300 p-1 h-fit">
-                    <img
+                    <Image
                       alt="GitHub logo"
                       src="/github-logo.svg"
-                      width="32"
-                      height="32"
+                      width={32}
+                      height={32}
                     />
                   </div>
                 </a>
               </div>
             </div>
-            <hr className="my-4 border-neutral-100 dark:border-neutral-700"></hr>
+            <hr className="my-4 border-neutral-100 dark:border-neutral-700" />
             <div className="flex flex-col md:flex-row">
               <div className="w-full md:w-2/3">
-                <p className=" ">Vietnamese' Chess </p>
+                <p className=" ">Vietnamese&apos; Chess </p>
                 <em className="text-sm ">Frontend, Aug - Oct 2023</em>
                 <ul className="pt-4 list-disc">
                   <li>
-                    An Owlvernyte team's school project (7 members). Vietnamese
+                    An Owlvernyte team&apos;s school project (7 members). Vietnamese
                     chess has both stunning look and smooth experience.
                   </li>
                   <li>
@@ -87,17 +88,17 @@ const Skills = () => {
                   href="https://github.com/orgs/Owlvernyte/projects/1"
                 >
                   <div className="transform transition-transform duration-300 group-hover:-rotate-12 rounded-full bg-neutral-700 dark:bg-neutral-300 p-1 h-fit">
-                    <img
+                    <Image
                       alt="GitHub logo"
                       src="/github-logo.svg"
-                      width="32"
-                      height="32"
+                      width={32}
+                      height={32}
                     />
                   </div>
                 </a>
               </div>
             </div>
-            <hr className="my-4 border-neutral-100 dark:border-neutral-700"></hr>
+            <hr className="my-4 border-neutral-100 dark:border-neutral-700" />
           </div>
           <div>
             <p className="text-white">
